@@ -3,6 +3,7 @@ const formulario = document.getElementById("form-dolar");
 const inputFecha = document.getElementById("fecha-dolar");
 const resultado = document.getElementById("contenedor-cotizaciones");
 const today = new Date();
+inputFecha.max = today.toISOString().split('T')[0];
 
 // FUNCIÓN PARA FORMATEAR FECHA A DD/MM/AAAA (para mostrar en el resultado y sea más user friendly)
 function formatearFechaDDMMAAAA(fechaISO) {

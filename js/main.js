@@ -58,12 +58,7 @@ function mostrarNoticias(filtro = "") {
             // Contenedor de cada noticia
             const card = document.createElement('div');
             card.classList.add("noticia-card");
-            card.style.border = "1px solid black";
-            card.style.margin = "10px";
-            card.style.padding = "10px";
-            card.style.width = "300px";
-            card.style.display = "inline-block";
-            card.style.verticalAlign = "top";
+            
 
             // Imagen
             const img = document.createElement('img');
